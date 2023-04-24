@@ -42,3 +42,6 @@ def test_overdraw_savings():
     account.deposit(50)
     account.withdraw(10)
     assert account.balance == 40
+
+def test_whateever():
+    pass
